@@ -1,0 +1,21 @@
+import { StyleSheet } from 'react-native'
+import { COLORS, SPACING } from '../../constants'
+
+export const styles = StyleSheet.create({
+  container: {
+    borderWidth: SPACING.space_2,
+    borderColor: COLORS.secondaryDarkGreyHex,
+    borderRadius: SPACING.space_12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: COLORS.secondaryDarkGreyHex,
+    overflow: 'hidden',
+  },
+
+  linearGradientBG: {
+    height: SPACING.space_36,
+    width: SPACING.space_36,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+})
